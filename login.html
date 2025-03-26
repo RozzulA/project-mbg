@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Login Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center">
+  <header class="header" class="topline" >
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center">
+        <img alt="Badan Gizi Nasional logo" src="Asset/BGN_LOGO.png" width="20%" />
+      </div>
+      <nav class="row">
+        <a class="text-black" href="#">Beranda</a>
+        <a class="text-black" href="#">Update <i class="fas fa-caret-down"></i></a>
+        <a class="text-black" href="#">Layanan <i class="fas fa-caret-down"></i></a>
+        <a class="text-black" href="#">Profil BGN <i class="fas fa-caret-down"></i></a>
+      </nav>
+      <button class="btn-masuk">Masuk</button>
+    </div>
+  </header>
+  <header class="topline">
+  </header>
+  <main class="flex-grow flex items-center justify-center">
+    <div class="form-container">
+        <form class="space-y-4">
+            <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input class="input-field" placeholder="Username" type="text" />
+            </div>
+            <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input class="input-field" placeholder="Password" type="password" />
+            </div>
+            <button class="submit-btn" type="submit">Masuk</button>
+        </form>
+      <p class="button">Klik Tulisan Ini Untuk Daftar Akun</p>
+    </div>
+  </main>
+</body>
+</html>
