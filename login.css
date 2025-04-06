@@ -1,83 +1,66 @@
 body {
-    background: linear-gradient(to right, #bfdbfe, #cfe5fc);
-  }
-  
-  .header {
-    width: 100%;
-    background: linear-gradient(90deg, #8cbdf8 0%, #b9d4f5 100%);
-    padding: 1rem 0;
-  }
-
-  .topline {
-    width: 100%;
-    background-color: #141549;
-    padding: 0.1rem 0;
-  }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .form-container {
-    background: rgba(0, 0, 0), rgba(0, 0, 0);
-    padding: 2rem;
-    border-radius: 1.5rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    width: 400px;
-  }
-
-  .btn-masuk {
-    width: 20%;
-    padding: 1%;
-    border-radius: 1.5rem;
-    border: 2px solid #141549;
-    background: linear-gradient(to right, #e0eeff 0%, #a0c0e7 65%, #85b4ec 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
 }
-  
-  .input-group {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 2rem;
-    padding: 0.5rem 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid #d1d5db;
-  }
-  
-  .input-group i {
-    color: #1e3a8a;
-    margin-right: 0.5rem;
-    font-size: 1.2rem;
-  }
-  
-  .input-field {
-    border: none;
-    outline: none;
-    flex: 1;
-    font-size: 1rem;
-    background: transparent;
-  }
-  
-  .submit-btn {
-    width: 50%;                 
-    background-color: #1e3a8a;  
-    color: white;               
-    padding: 0.75rem 0;         
-    border-radius: 2rem;        
-    display: block;
-    margin: 1.5rem auto 0 auto; 
-    font-weight: bold;          
-    font-size: 1rem;            
-    transition: background-color 0.3s ease; 
-  }
-  
-  .submit-btn:hover {
-    background-color: #2743c4;
-  }
-  
-  .form-container p {
-    margin-top: 1.5rem;
-    font-size: 0.95rem;
-    text-align: center;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
+
+.btn-masuk {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 2px solid #141549;
+  background: linear-gradient(to right, #e0eeff 0%, #a0c0e7 65%, #85b4ec 100%);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  font-weight: 600;
+  color: #141549;
+  transition: all 0.3s ease;
+}
+.btn-masuk:hover {
+  transform: translateY(-2px);
+  background: #b3d4fc;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+}
+
+.input-group i {
+  color: #1e3a8a;
+  margin-right: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.submit-btn {
+  width: 100%;
+  background: linear-gradient(to right, #3b82f6, #60a5fa);
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.submit-btn:hover {
+  background: #2563eb;
+}
