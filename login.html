@@ -6,15 +6,15 @@
   <title>Login Page</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body class="min-h-screen flex flex-col bg-gradient-to-r from-[#E2F0FF] to-[#B5D6F5]">
 
-  <header class="w-full bg-gradient-to-r from-[#8cbdf8] to-[#b9d4f5] py-4">
+  <header class="w-full bg-gradient-to-r from-[#8cbdf8] to-[#b9d4f5] py-3">
     <div class="container mx-auto flex justify-between items-center px-4">
-      <img alt="Badan Gizi Nasional logo" src="Asset/BGN_LOGO.png" class="w-1/5 max-w-[150px]" />
-      <nav class="flex space-x-6 text-base font-medium">
+      <img alt="Badan Gizi Nasional logo" src="Asset/BGN_LOGO.png" class="w-1/5 max-w-[200px]" />
+      <nav class="flex space-x-8 text-base font-medium">
         <a class="text-black hover:text-blue-700" href="#">Beranda</a>
         <a class="text-black hover:text-blue-700" href="#">Update <i class="fas fa-caret-down"></i></a>
         <a class="text-black hover:text-blue-700" href="#">Layanan <i class="fas fa-caret-down"></i></a>
@@ -36,6 +36,10 @@
         <div class="input-group">
           <i class="fas fa-lock"></i>
           <input class="input-field" placeholder="Password" type="password" />
+        </div>
+        <div class="input-group">
+          <i class="fas fa-id-card"></i>
+          <input class="input-field" placeholder="NIK" type="text" />
         </div>
         <button class="submit-btn" type="submit">Masuk</button>
       </form>

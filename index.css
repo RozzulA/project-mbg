@@ -12,7 +12,7 @@ body {
 }
 
 .btn-masuk {
-  padding: 0.5rem 1rem;
+  padding: 1rem 5rem;
   border-radius: 9999px;
   border: 2px solid #141549;
   background: linear-gradient(to right, #e0eeff 0%, #a0c0e7 65%, #85b4ec 100%);
